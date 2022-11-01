@@ -7,13 +7,13 @@ class Treatment extends StatelessWidget {
   const Treatment({Key? key}) : super(key: key);
   static const options = [
     OptionWithTextOnly(
-        text: 'Fusions Selpercatinib All Solid Tumors (excluding Thyroid Cancer, Non-Small Cell Lung Cancer)'),
+        text: 'Fusions Selpercatinib (1) All Solid Tumors (excluding Thyroid Cancer, Non-Small Cell Lung Cancer)'),
     OptionWithTextOnly(
-        text: 'Fusions Cabozantinib Non-Small Cell Lung Cancer'),
+        text: 'Fusions Cabozantinib (3B) Non-Small Cell Lung Cancer'),
     OptionWithTextOnly(
-      text: 'Fusions Vandetanib Non-Small Cell Lung Cancer',),
+      text: 'Fusions Vandetanib (3B) Non-Small Cell Lung Cancer',),
     OptionWithTextOnly(
-      text: 'Fusions Pralsetinib Non-Small Cell Lung Cancer',),
+      text: 'Fusions Pralsetinib (3B) Non-Small Cell Lung Cancer',),
   ];
 
   @override
