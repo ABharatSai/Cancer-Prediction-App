@@ -9,11 +9,11 @@ class PAMetastatic extends StatelessWidget {
     OptionWithTextOnly(
         text: 'Biopsy confirmation from a metastatic site preferred'),
     OptionWithTextOnly(
-        text: ' If jaundice present : placement of self-expanding metal stent'),
+        text: 'If jaundice present : placement of self-expanding metal stent'),
     OptionWithTextOnly(
-      text: ' Genetic testing for inherited mutations, if not previously done',),
+      text: 'Genetic testing for inherited mutations, if not previously done',),
     OptionWithTextOnly(
-        text: 'Molecular profiling of tumor tissue, if not previously ',),
+        text: 'Molecular profiling of tumor tissue, if not previously',),
   ];
 
   @override

@@ -17,6 +17,6 @@ class Rebiopsy extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const OptionsScreen(pageTitle: 'Performance Status', options: options);
+    return const OptionsScreen(pageTitle: 'Performance Status (Rebiopsy)', options: options);
   }
 }

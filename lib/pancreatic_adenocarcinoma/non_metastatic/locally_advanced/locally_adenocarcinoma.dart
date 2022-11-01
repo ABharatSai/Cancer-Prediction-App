@@ -7,9 +7,9 @@ class Adenocarcinoma extends StatelessWidget {
   const Adenocarcinoma({Key? key}) : super(key: key);
   static const options = [
     OptionWithTextOnly(
-        text: ' Genetic testing for inherited mutations, if not previously done'),
+        text: 'Genetic testing for inherited mutations, if not previously done'),
     OptionWithTextOnly(
-        text: ' If jaundice present : placement of self-expanding metal stent preferably by ERCP'),
+        text: 'If jaundice present : placement of self-expanding metal stent preferably by ERCP'),
     OptionWithTextOnly(
       text: 'Molecular profiling of tumor tissue, if not previously ',),
   ];

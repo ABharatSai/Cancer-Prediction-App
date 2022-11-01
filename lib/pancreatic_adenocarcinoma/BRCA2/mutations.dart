@@ -1,0 +1,81 @@
+import 'package:cancer_prediction_app/components/options.dart';
+import 'package:cancer_prediction_app/components/options_screen.dart';
+import 'package:flutter/material.dart';
+import 'treatment.dart';
+class BRCA2 extends StatelessWidget {
+  const BRCA2({Key? key}) : super(key: key);
+  static const options = [
+    Option(text: 'R2842C',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'R2336H',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'Q2157Ifs',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'W1692Mfs',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'D252Vfs',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'L2696',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'S2148Yfs',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'N1066Lfs',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'C1365Mfs',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'L659',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'D1199Vfs',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'I605Nfs',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'N1784Kfs',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'T3033Lfs',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'K437Ifs',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'Q73',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'N986Ifs',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'N863Ifs',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'W1692Mfs',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'R3052W',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'Q1551',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+    Option(text: 'E2872',
+        nextPage: Treatment(),
+        infoPage: Text('No info page available')),
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    return const OptionsScreen(pageTitle: 'Biomarker Testing', options: options);
+  }
+}
+

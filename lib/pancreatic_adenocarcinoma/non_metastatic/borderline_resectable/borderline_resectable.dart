@@ -12,7 +12,7 @@ class BorderResectable extends StatelessWidget {
     OptionWithTextOnly(
         text: 'Consider staging laparoscopy'),
     OptionWithTextOnly(
-      text: ' Baseline CA 19-9',),
+      text: 'Baseline CA 19-9',),
   ];
 
   @override

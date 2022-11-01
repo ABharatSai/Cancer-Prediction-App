@@ -7,10 +7,10 @@ import 'metastatic/poorps.dart';
 class PAMetastaticWorkup extends StatelessWidget {
   const PAMetastaticWorkup({Key? key}) : super(key: key);
   static const options = [
-    Option(text: 'Metastatic Good PS',
+    Option(text: 'Good Performance Status (PS)',
         nextPage: GoodPS(),
         infoPage: Text('No info page available')),
-    Option(text: 'Metastatic Poor PS',
+    Option(text: 'Poor Performance Status (PS)',
         nextPage: PoorPS(),
         infoPage: Text('No info page available')),
   ];

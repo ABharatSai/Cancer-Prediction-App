@@ -7,7 +7,7 @@ import 'package:cancer_prediction_app/pancreatic_adenocarcinoma/metastatic/goodp
 class Maintainance extends StatelessWidget {
   const Maintainance({Key? key}) : super(key: key);
   static const options = [
-    Option(text: 'No Disease Progression (on (after at least 4–6 months of chemotherapy, assuming acceptable toleranc)',
+    Option(text: 'No Disease Progression (after at least 4–6 months of chemotherapy, assuming acceptable tolerance)',
         nextPage: GoodPS(),
         infoPage: Text('No info page available')),
     Option(text: 'Disease Progression',

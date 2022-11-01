@@ -5,7 +5,6 @@ import 'non_metastatic/borderline_resectable/borderline_resectable.dart';
 import 'non_metastatic/resectable/resectable.dart';
 import 'non_metastatic/locally_advanced/locally_advanced_disease.dart';
 import 'package:cancer_prediction_app/pancreatic_adenocarcinoma/pa_metastatic_workup.dart';
-import 'non_metastatic/borderline_resectable/borderline_resectable.dart';
 
 class PANonMetastaticWorkup extends StatelessWidget {
   const PANonMetastaticWorkup({Key? key}) : super(key: key);
