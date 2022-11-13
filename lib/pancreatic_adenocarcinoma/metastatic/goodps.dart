@@ -14,7 +14,7 @@ class GoodPS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ScreenWithTextOnly(pageTitle: 'First-Line Therapies',options: options, nextPage: Maintainance());
+    return ScreenWithTextOnly(pageTitle: 'First-Line Therapies',options: options, nextPage: const Maintainance());
   }
 }
 

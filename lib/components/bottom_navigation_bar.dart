@@ -1,5 +1,7 @@
+import 'package:cancer_prediction_app/components/options_screen.dart';
 import 'package:cancer_prediction_app/home.dart';
-import 'package:flutter/material.dart';  
+import 'package:flutter/material.dart';
+import 'package:cancer_prediction_app/components/options.dart';
 
 
 
@@ -11,8 +13,8 @@ class MyNavigationBar extends StatefulWidget {
 }  
   
 class _MyNavigationBarState extends State<MyNavigationBar > {  
-  int _selectedIndex = 0;  
-  
+  int _selectedIndex = 0;
+
   void _onItemTapped(int index) {  
     setState(() {  
       _selectedIndex = index;  

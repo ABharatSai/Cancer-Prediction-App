@@ -19,6 +19,6 @@ class Surveillance extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ScreenWithTextOnly(pageTitle: 'Active Surveillance',options: options, nextPage: HomePage());
+    return ScreenWithTextOnly(pageTitle: 'Active Surveillance',options: options, nextPage: const HomePage());
   }
 }

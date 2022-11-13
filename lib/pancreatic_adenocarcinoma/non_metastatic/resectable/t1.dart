@@ -14,6 +14,6 @@ class T1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ScreenWithTextOnly(pageTitle: 'Treatments',options: options, nextPage: Precluding());
+    return ScreenWithTextOnly(pageTitle: 'Treatments',options: options, nextPage: const Precluding());
   }
 }

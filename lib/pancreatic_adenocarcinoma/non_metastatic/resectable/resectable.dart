@@ -14,6 +14,6 @@ class Resectable extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ScreenWithTextOnly(pageTitle: 'Treatments Preferred',options: options, nextPage: RTreatment());
+    return ScreenWithTextOnly(pageTitle: 'Treatments Preferred',options: options, nextPage: const RTreatment());
   }
 }

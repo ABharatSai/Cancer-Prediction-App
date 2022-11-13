@@ -14,6 +14,6 @@ class RTreatment extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ScreenWithTextOnly(pageTitle: 'Treatment Suggestions',options: options, nextPage: Rstatus());
+    return ScreenWithTextOnly(pageTitle: 'Treatment Suggestions',options: options, nextPage: const Rstatus());
   }
 }

@@ -14,6 +14,6 @@ class BorderTreatments extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ScreenWithTextOnly(pageTitle: 'Treatment Suggestions',options: options, nextPage: Nxtsteps());
+    return ScreenWithTextOnly(pageTitle: 'Treatment Suggestions',options: options, nextPage: const Nxtsteps());
   }
 }

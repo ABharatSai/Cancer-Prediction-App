@@ -17,6 +17,6 @@ class BorderResectable extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ScreenWithTextOnly(pageTitle: 'Clinical Presentation',options: options, nextPage: ClinicalStatus());
+    return ScreenWithTextOnly(pageTitle: 'Clinical Presentation',options: options, nextPage: const ClinicalStatus());
   }
 }

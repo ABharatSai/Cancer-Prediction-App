@@ -18,6 +18,6 @@ class TreatmentPost extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ScreenWithTextOnly(pageTitle: 'Suggested Therapies',options: options, nextPage: Surveillance());
+    return ScreenWithTextOnly(pageTitle: 'Suggested Therapies',options: options, nextPage: const Surveillance());
   }
 }

@@ -22,6 +22,6 @@ class PANonMetastatic extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ScreenWithTextOnly(pageTitle: 'Clinical Presentation',options: options, nextPage: PANonMetastaticWorkup());
+    return ScreenWithTextOnly(pageTitle: 'Clinical Presentation',options: options, nextPage: const PANonMetastaticWorkup());
   }
 }
