@@ -68,6 +68,7 @@ Widget info1 = const InfoPage(pageName: "ALK", infoList:
 ], links: [
   "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/alk-gene",
   "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5879058/",
+  "https://www.youtube.com/watch?v=OeVb_MEW2jw",
 ]);
 
 Widget info2 = const InfoPage(pageName: "BRAF", infoList:
@@ -78,6 +79,7 @@ Widget info2 = const InfoPage(pageName: "BRAF", infoList:
 ], links: [
   "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/braf-gene",
   "https://www.nccn.org/patients/guidelines/content/PDF/pancreatic-patient.pdf",
+  "https://www.youtube.com/watch?v=tOiQjnh9cnI",
 ]);
 
 Widget info3 = const InfoPage(pageName: "BRCA1", infoList:
@@ -88,6 +90,7 @@ Widget info3 = const InfoPage(pageName: "BRCA1", infoList:
 ], links: [
   "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet",
   "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3838820/",
+  "https://www.youtube.com/watch?v=LHuUZotCfbM",
 ]);
 
 Widget info4 = const InfoPage(pageName: "BRCA2", infoList:
@@ -108,6 +111,7 @@ Widget info5 = const InfoPage(pageName: "FGFR2", infoList:
 ], links: [
   "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/fgfr2-gene",
   "https://medlineplus.gov/genetics/gene/fgfr2/",
+  "https://www.youtube.com/watch?v=ZEO-FFZuJM8",
 ]);
 
 Widget info6 = const InfoPage(pageName: "KRAS", infoList:
@@ -118,6 +122,7 @@ Widget info6 = const InfoPage(pageName: "KRAS", infoList:
 ], links: [
   "https://medlineplus.gov/genetics/gene/kras/",
   "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/kras-gene",
+  "https://www.youtube.com/watch?v=XM6PTqiLItM",
 ]);
 
 Widget info7 = const InfoPage(pageName: "NRG1", infoList:
@@ -128,6 +133,7 @@ Widget info7 = const InfoPage(pageName: "NRG1", infoList:
 ], links: [
   "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/neuregulin-1",
   "https://www.mycancergenome.org/content/gene/nrg1/",
+  "https://www.youtube.com/watch?v=X3D3FjdSLJQ",
 ]);
 
 Widget info8 = const InfoPage(pageName: "NTRK1 Gene Fusion", infoList:
@@ -137,6 +143,7 @@ Widget info8 = const InfoPage(pageName: "NTRK1 Gene Fusion", infoList:
 ], links: [
   "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ntrk-gene-fusion",
   "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6419506/",
+  "https://www.youtube.com/watch?v=4OsgdLrd7iE",
 ]);
 
 Widget info9 = const InfoPage(pageName: "PALB2", infoList:
@@ -145,6 +152,7 @@ Widget info9 = const InfoPage(pageName: "PALB2", infoList:
   InfoItem(head: "How it is relavant?", body: "PALB2 is a component of the Fanconi anemia complementation (FANCC) group involved in DNA double-strand break repair. Germline mutations of PALB2 are associated with Fanconi anemia and predispose to breast cancer."),
 ], links: [
   "https://medicine.yale.edu/news-article/what-you-need-to-know-about-the-palb2-breast-cancer-gene/",
+  "https://www.youtube.com/watch?v=H6Tzwu4Jf5Y",
 ]);
 
 Widget info10 = const InfoPage(pageName: "RET", infoList:
@@ -155,6 +163,7 @@ Widget info10 = const InfoPage(pageName: "RET", infoList:
 ], links: [
   "https://www.onclive.com/view/biology-of-ret-genetic-alterations",
   "https://medlineplus.gov/genetics/gene/ret/",
+  "https://www.youtube.com/watch?v=l1qQXCI7uHw",
 ]);
 
 Widget info11 = const InfoPage(pageName: "ROS1", infoList:
@@ -165,4 +174,5 @@ Widget info11 = const InfoPage(pageName: "ROS1", infoList:
 ], links: [
   "https://www.ncbi.nlm.nih.gov/gene/6098",
   "https://massivebio.com/ros1-mutation-in-lung-cancer/",
+  "https://www.youtube.com/watch?v=csDaZMoIy3Q",
 ]);

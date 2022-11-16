@@ -41,5 +41,7 @@ Widget info2 = const InfoPage(pageName: "Disease Progression", infoList:
   InfoItem(head: "What does it mean?", body: "Metastases most commonly develop when cancer cells break away from the main tumor and enter the body's bloodstream or lymphatic system. These systems carry fluids around the body. This means that the cancer cells can travel far from the original tumor and form new tumors when they settle and grow in a different part of the body. The disease has progressed into metastasis, follow the protocol metastasis"),
   InfoItem(head: "Is it relavant?", body: "Yes this is your next step of the treatment"),
 ], links: [
+  "https://www.youtube.com/watch?v=fQwar_-QdiQ",
+  "https://www.youtube.com/watch?v=kYgsCfgeGX4",
   "https://www.cancer.net/navigating-cancer-care/cancer-basics/what-metastasis",
 ]);

@@ -52,6 +52,7 @@ Widget info3 = const InfoPage(pageName: "Locally Advanced", infoList:
   InfoItem(head: "Can surgery be done?", body: "Tumor and nearby lymph nodes may or may not be removed with surgery."),
   InfoItem(head: "Why?", body: "Tumor has grown or may involve major blood vessels that cannot be removed or reconstructed."),
 ], links: [
+  "https://www.youtube.com/watch?v=XDRa-Nyr7Cc",
   "https://www.nccn.org/patients/guidelines/content/PDF/pancreatic-patient.pdf",
 ]);
 Widget info4 = const InfoPage(pageName: "Metastatic", infoList:
@@ -60,5 +61,7 @@ Widget info4 = const InfoPage(pageName: "Metastatic", infoList:
   InfoItem(head: "Can surgery be done?", body: "No, tumor cannot be removed with surgery."),
   InfoItem(head: "Why?", body: "Tumor has grown into surrounding tissues and has spread to distant parts of the body."),
 ], links: [
+  "https://www.youtube.com/watch?v=fQwar_-QdiQ",
+  "https://www.youtube.com/watch?v=kYgsCfgeGX4",
   "https://www.nccn.org/patients/guidelines/content/PDF/pancreatic-patient.pdf",
 ]);
